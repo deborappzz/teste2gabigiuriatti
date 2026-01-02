@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado! - Gabi Giuriatti</title>
+   
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+   
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .whatsapp-bg {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-amber-50 to-orange-50 font-sans text-gray-800 flex flex-col">
+
+
+    <!-- Header Simples -->
+    <header class="py-6 text-center">
+        <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full border border-amber-200 shadow-sm">
+            <i data-lucide="chef-hat" class="w-6 h-6 text-amber-500"></i>
+            <span class="text-xl font-bold tracking-wide text-gray-800">GABI GIURIATTI</span>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="flex-grow flex items-center justify-center px-4 py-12">
+        <div class="max-w-2xl w-full bg-white rounded-3xl shadow-2xl p-8 md:p-12 border-4 border-amber-400 text-center relative overflow-hidden">
+           
+            <!-- Confetti Effect (Visual) -->
+            <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-red-500 via-amber-400 to-green-500"></div>
+
+
+            <!-- Icon -->
+            <div class="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 animate-bounce">
+                <i data-lucide="check" class="w-12 h-12 text-green-600"></i>
+            </div>
+
+
+            <!-- Headline -->
+            <h1 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+                Inscrição Confirmada!
+            </h1>
+           
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                O Guia dos 3 Segredos do Sofrito Perfeito já está a caminho do seu e-mail.
+            </p>
+
+
+            <!-- WhatsApp CTA Box -->
+            <div class="bg-gray-50 rounded-2xl p-8 border-2 border-green-100 mb-8">
+                <div class="inline-block bg-green-100 text-green-800 px-4 py-1 rounded-full text-sm font-bold tracking-wider mb-4">
+                    ⚠️ PASSO FINAL IMPORTANTE
+                </div>
+               
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                    Não perca as dicas exclusivas!
+                </h3>
+               
+                <p class="text-gray-600 mb-6">
+                    Para garantir que você vai receber conteúdos extras, receitas rápidas e avisos importantes, entre no nosso <strong>Grupo VIP de Alunos</strong> no WhatsApp. É silenciado e sem spam!
+                </p>
+
+
+                <a href="https://chat.whatsapp.com/Ll6oG63B62I9iOXKNKHQf2" target="_blank" class="whatsapp-bg hover:opacity-90 text-white font-bold py-5 px-8 rounded-xl text-lg shadow-xl hover:shadow-2xl transform hover:scale-[1.02] active:scale-95 transition-all duration-200 flex items-center justify-center gap-3 w-full">
+                    <i data-lucide="message-circle" class="w-8 h-8"></i>
+                    ENTRAR NO GRUPO VIP
+                </a>
+               
+                <p class="text-xs text-gray-400 mt-4">
+                    *Clique no botão acima para entrar agora
+                </p>
+            </div>
+
+
+            <a href="index.html" class="text-gray-500 hover:text-amber-600 transition underline decoration-gray-300 underline-offset-4 text-sm">
+                Voltar para a página inicial
+            </a>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 px-4 text-center mt-auto">
+        <p class="text-sm text-gray-500">
+            © 2024 Gabriele Giuriatti. Todos os direitos reservados.
+        </p>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
